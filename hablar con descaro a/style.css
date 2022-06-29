@@ -16,7 +16,12 @@ body {
     grid-template-columns: repeat( auto-fill, minmax(15rem));
 
 }
-
+.Formaparte {
+    display: grid;
+    gap: 30rem;
+    grid-auto-rows: auto;
+    grid-template-columns: repeat( auto-fill, minmax(15rem));
+}
 section {
   display: -ms-grid;
   display: grid;
